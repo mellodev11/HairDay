@@ -6,6 +6,5 @@ import "./styles/schedule.css";
 
 import "./libs/dayjs.js";
 
-import dayjs from "dayjs";
-
 import "./modules/form/submit.js";
+import "./modules/load.js";
