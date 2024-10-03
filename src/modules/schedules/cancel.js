@@ -8,6 +8,14 @@ periods.forEach((periods) => {
     if (e.target.classList.contains("cancel-icon")) {
       //Obter a li pai do elemento clicado
       const item = e.target.closest("li");
+      const { id } = item.dataset;
+
+      if (id) {
+        const isConfirm = confirm("tem certeza que deseja cancelar?");
+
+        if (isConfirm) {
+        }
+      }
     }
   });
 });
